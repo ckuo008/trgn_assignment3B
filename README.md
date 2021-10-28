@@ -18,8 +18,13 @@ number line by line to stdout.
 # ensg2hugo
 
 ## Usage
+* download `Homo_sapiens.GRCh37.75.gtf` first, `wget http://ftp.ensembl.org/pub/release-75/gtf/homo_sapiens/Homo_sapiens.GRCh37.75.gtf.gz`
+`./ensg2hugo.py [-h] path [path ...]`
+- `-h`: for usage help
+- `-path`: file path to be replaced
 
 ## Description
+A script to generate mapping of Ensembl name to HUGO name and then replcae input tsv/csv with reference to the mapping.
 
 ## Known Issues
 
